@@ -19,6 +19,6 @@ int main() {
   
   result = (firstNum + secondNum + thirdNum) / 3.0f;
   
-  cout << "The average is " << result << endl;
+  cout << "The average of " << firstNum << ", " << secondNum << ", and " << thirdNum << "is " << result << endl;
   return 0;
 }
