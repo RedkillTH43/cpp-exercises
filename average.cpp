@@ -9,7 +9,6 @@ int main() {
   float result;
   
   cout << " -- Average of 3 Numbers -- " << endl;
-  cout << "Input 3 numbers" << endl;
   cout << "First Number: ";
   cin >> firstNum;
   cout << "Second Number: ";
@@ -19,6 +18,6 @@ int main() {
   
   result = (firstNum + secondNum + thirdNum) / 3.0f;
   
-  cout << "The average of " << firstNum << ", " << secondNum << ", and " << thirdNum << "is " << result << endl;
+  cout << "The average of " << firstNum << ", " << secondNum << ", " << thirdNum << " is " << result << endl;
   return 0;
 }
